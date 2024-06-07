@@ -19,6 +19,7 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var popularCollectionView: UICollectionView!
     
+    @IBOutlet weak var getStartedView: UIView!
     let categoryList = [
     Category(categoryName: "Property for Rent", categoryImageName: "house"),
     Category(categoryName: "Property for Sale", categoryImageName: "house"),
@@ -35,6 +36,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         customizeSearchBar()
+        customizegetStartedView()
         categoryCollectionView.dataSource = self
         popularCollectionView.dataSource = self
     }
@@ -46,13 +48,21 @@ class ViewController: UIViewController {
                 imageView.tintColor = .red
                 searchTextField.leftView = imageView
                 searchTextField.backgroundColor = .white
-                searchTextField.layer.borderWidth = 1
+                searchTextField.layer.borderWidth = 0.5
                 searchTextField.layer.borderColor = UIColor.lightGray.cgColor
-                searchTextField.layer.cornerRadius = 10
+                searchTextField.layer.cornerRadius = 15
                 searchTextField.clipsToBounds = true
             }
         
         }
+    
+    func customizegetStartedView(){
+        getStartedView.layer.borderWidth = 0.5
+        getStartedView.layer.borderColor = UIColor.systemGray.cgColor
+        getStartedView.layer.cornerRadius = 5
+        getStartedView.layer.shadowColor = UIColor.systemGray.cgColor
+        getStartedView.layer.shadowRadius = 5
+    }
 
 
 }
@@ -70,11 +80,25 @@ extension ViewController: UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         if collectionView == categoryCollectionView {
             let cell = categoryCollectionView.dequeueReusableCell(withReuseIdentifier: "CategoryCollectionViewCell", for: indexPath) as! CategoryCollectionViewCell
-            //        cell.categoryImage.image = UIImage(named: categoryList[indexPath.row].categoryImageName)
             cell.categoryName.text = categoryList[indexPath.row].categoryName
+            cell.layer.borderWidth = 0.5
+            cell.layer.borderColor = UIColor.systemGray.cgColor
+            cell.layer.cornerRadius = 5
+            cell.layer.shadowColor = UIColor.systemGray.cgColor
+            cell.layer.shadowOpacity = 0.7
+            cell.layer.shadowRadius = 5
+            cell.layer.shadowOffset = CGSize(width: 0, height: 5)
+            cell.layer.masksToBounds = false
             return cell
         } else if collectionView == popularCollectionView {
             let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "PopularCollectionViewCell", for: indexPath)
+            cell.layer.borderWidth = 0.5
+            cell.layer.borderColor = UIColor.systemGray.cgColor
+            cell.layer.cornerRadius = 10
+            cell.layer.shadowColor = UIColor.systemGray.cgColor
+            cell.layer.shadowOpacity = 0.7
+            cell.layer.shadowRadius = 5
+            cell.layer.shadowOffset = CGSize(width: 0, height: 5)
             return cell
         }
         return UICollectionViewCell()
