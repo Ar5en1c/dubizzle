@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C2EB05F2C125FBA00E186C4 /* Calculations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C2EB05E2C125FBA00E186C4 /* Calculations.swift */; };
 		0C98FE362C11FDD000AF41F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C98FE352C11FDD000AF41F8 /* AppDelegate.swift */; };
 		0C98FE382C11FDD000AF41F8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C98FE372C11FDD000AF41F8 /* SceneDelegate.swift */; };
 		0C98FE3A2C11FDD000AF41F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C98FE392C11FDD000AF41F8 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 		0C98FE4D2C11FDD100AF41F8 /* dubizzleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C98FE4C2C11FDD100AF41F8 /* dubizzleTests.swift */; };
 		0C98FE572C11FDD100AF41F8 /* dubizzleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C98FE562C11FDD100AF41F8 /* dubizzleUITests.swift */; };
 		0C98FE592C11FDD100AF41F8 /* dubizzleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C98FE582C11FDD100AF41F8 /* dubizzleUITestsLaunchTests.swift */; };
+		0CEB96E92C122492008EB482 /* CategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEB96E82C122492008EB482 /* CategoryCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C2EB05E2C125FBA00E186C4 /* Calculations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculations.swift; sourceTree = "<group>"; };
 		0C98FE322C11FDD000AF41F8 /* dubizzle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dubizzle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C98FE352C11FDD000AF41F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0C98FE372C11FDD000AF41F8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +52,7 @@
 		0C98FE522C11FDD100AF41F8 /* dubizzleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dubizzleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C98FE562C11FDD100AF41F8 /* dubizzleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dubizzleUITests.swift; sourceTree = "<group>"; };
 		0C98FE582C11FDD100AF41F8 /* dubizzleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dubizzleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0CEB96E82C122492008EB482 /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,10 +106,12 @@
 				0C98FE352C11FDD000AF41F8 /* AppDelegate.swift */,
 				0C98FE372C11FDD000AF41F8 /* SceneDelegate.swift */,
 				0C98FE392C11FDD000AF41F8 /* ViewController.swift */,
+				0CEB96E82C122492008EB482 /* CategoryCollectionViewCell.swift */,
 				0C98FE3B2C11FDD000AF41F8 /* Main.storyboard */,
 				0C98FE3E2C11FDD100AF41F8 /* Assets.xcassets */,
 				0C98FE402C11FDD100AF41F8 /* LaunchScreen.storyboard */,
 				0C98FE432C11FDD100AF41F8 /* Info.plist */,
+				0C2EB05E2C125FBA00E186C4 /* Calculations.swift */,
 			);
 			path = dubizzle;
 			sourceTree = "<group>";
@@ -259,7 +265,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C98FE3A2C11FDD000AF41F8 /* ViewController.swift in Sources */,
+				0CEB96E92C122492008EB482 /* CategoryCollectionViewCell.swift in Sources */,
 				0C98FE362C11FDD000AF41F8 /* AppDelegate.swift in Sources */,
+				0C2EB05F2C125FBA00E186C4 /* Calculations.swift in Sources */,
 				0C98FE382C11FDD000AF41F8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
