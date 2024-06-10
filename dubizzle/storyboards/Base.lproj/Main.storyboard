@@ -257,21 +257,21 @@
                                     <constraint firstAttribute="height" constant="270" id="A7t-FH-UMg"/>
                                 </constraints>
                                 <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="WLk-u3-IfV">
-                                    <size key="itemSize" width="100" height="100"/>
+                                    <size key="itemSize" width="90" height="75"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
                                     <inset key="sectionInset" minX="10" minY="5" maxX="10" maxY="5"/>
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CategoryCollectionViewCell" id="XfZ-s0-tSC" customClass="CategoryCollectionViewCell" customModule="dubizzle" customModuleProvider="target">
-                                        <rect key="frame" x="10" y="5" width="100" height="100"/>
+                                        <rect key="frame" x="10" y="5" width="90" height="75"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="Vmd-FR-dBJ">
-                                            <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="90" height="75"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WVr-zu-g4h">
-                                                    <rect key="frame" x="8" y="61" width="84" height="29"/>
+                                                    <rect key="frame" x="8" y="36" width="74" height="29"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="29" id="Rzh-fh-dKt"/>
                                                     </constraints>
@@ -279,26 +279,26 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="house.lodge.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="edT-76-MHH">
-                                                    <rect key="frame" x="35" y="4.6666666666666856" width="30" height="28.666666666666671"/>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="building.2.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="edT-76-MHH">
+                                                    <rect key="frame" x="28" y="-0.66666666666666663" width="35" height="35"/>
                                                     <color key="tintColor" systemColor="systemRedColor"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="width" constant="30" id="1Wu-Ck-3hN"/>
-                                                        <constraint firstAttribute="height" constant="30" id="PNP-U0-WVt"/>
+                                                        <constraint firstAttribute="width" constant="35" id="1Wu-Ck-3hN"/>
+                                                        <constraint firstAttribute="height" constant="42.333333333333329" id="Rgj-Nv-fJN"/>
                                                     </constraints>
                                                 </imageView>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="WVr-zu-g4h" firstAttribute="leading" secondItem="Vmd-FR-dBJ" secondAttribute="leading" constant="8" id="BWk-AG-h97"/>
-                                                <constraint firstAttribute="trailing" secondItem="edT-76-MHH" secondAttribute="trailing" constant="28" id="Hek-pH-nGS"/>
-                                                <constraint firstItem="WVr-zu-g4h" firstAttribute="top" secondItem="edT-76-MHH" secondAttribute="bottom" constant="5" id="RmU-bx-lx1"/>
+                                                <constraint firstAttribute="trailing" secondItem="edT-76-MHH" secondAttribute="trailing" constant="27" id="IyI-RL-g6z"/>
+                                                <constraint firstAttribute="bottom" secondItem="WVr-zu-g4h" secondAttribute="bottom" constant="10" id="O40-E3-cpl"/>
+                                                <constraint firstItem="WVr-zu-g4h" firstAttribute="top" secondItem="Vmd-FR-dBJ" secondAttribute="top" constant="36" id="RLV-p8-Jqd"/>
+                                                <constraint firstItem="edT-76-MHH" firstAttribute="top" secondItem="Vmd-FR-dBJ" secondAttribute="top" constant="1.0000000000000391" id="WB5-ER-ps6"/>
                                                 <constraint firstAttribute="trailing" secondItem="WVr-zu-g4h" secondAttribute="trailing" constant="8" id="d4w-Eu-vC6"/>
-                                                <constraint firstAttribute="bottom" secondItem="WVr-zu-g4h" secondAttribute="bottom" constant="10" id="uRu-Nb-HcP"/>
-                                                <constraint firstItem="edT-76-MHH" firstAttribute="leading" secondItem="Vmd-FR-dBJ" secondAttribute="leading" constant="28" id="wdy-Ir-26w"/>
-                                                <constraint firstItem="edT-76-MHH" firstAttribute="top" secondItem="Vmd-FR-dBJ" secondAttribute="top" constant="2" id="zkN-N9-uT7"/>
+                                                <constraint firstItem="edT-76-MHH" firstAttribute="leading" secondItem="Vmd-FR-dBJ" secondAttribute="leading" constant="28" id="wMx-A6-4Pk"/>
                                             </constraints>
                                         </collectionViewCellContentView>
-                                        <size key="customSize" width="100" height="100"/>
+                                        <size key="customSize" width="90" height="75"/>
                                         <connections>
                                             <outlet property="categoryImage" destination="edT-76-MHH" id="Yby-BF-TlY"/>
                                             <outlet property="categoryName" destination="WVr-zu-g4h" id="l7a-Sm-uTY"/>
@@ -506,21 +506,6 @@
             </objects>
             <point key="canvasLocation" x="1667.9389312977098" y="-6.3380281690140849"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="kmQ-rl-gz3">
-            <objects>
-                <viewController id="ffO-Zp-0Af" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Gcp-zg-lix">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="gaa-qo-gUP"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Bpb-a0-7Iv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2611" y="8"/>
-        </scene>
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="C4S-Bb-qHF"/>
@@ -530,12 +515,12 @@
         <image name="apple.logo" catalog="system" width="105" height="128"/>
         <image name="arrow.right" catalog="system" width="128" height="95"/>
         <image name="bell" catalog="system" width="125" height="128"/>
+        <image name="building.2.fill" catalog="system" width="128" height="117"/>
         <image name="checkmark.seal.fill" catalog="system" width="128" height="124"/>
         <image name="doc.text.image" catalog="system" width="115" height="128"/>
         <image name="envelope.fill" catalog="system" width="128" height="85"/>
         <image name="g.circle" catalog="system" width="128" height="123"/>
         <image name="house" catalog="system" width="128" height="104"/>
-        <image name="house.lodge.fill" catalog="system" width="128" height="63"/>
         <image name="paperplane" catalog="system" width="128" height="119"/>
         <image name="paperplane.circle.fill" catalog="system" width="128" height="123"/>
         <image name="photo.on.rectangle.angled" catalog="system" width="128" height="98"/>
@@ -544,22 +529,22 @@
             <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <systemColor name="secondaryLabelColor">
-            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemGray6Color">
-            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemGreenColor">
-            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemRedColor">
-            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="tertiaryLabelColor">
-            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.29803921568627451" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.29803921570000003" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

@@ -7,30 +7,12 @@
 
 import UIKit
 
-struct Category {
-    let categoryName: String
-    let categoryImageName: String
-}
-
 class ViewController: UIViewController {
 
     @IBOutlet weak var searchBar: UISearchBar!
     @IBOutlet weak var categoryCollectionView: UICollectionView!
-    
     @IBOutlet weak var popularCollectionView: UICollectionView!
-    
     @IBOutlet weak var getStartedView: UIView!
-    let categoryList = [
-    Category(categoryName: "Property for Rent", categoryImageName: "house"),
-    Category(categoryName: "Property for Sale", categoryImageName: "house"),
-    Category(categoryName: "Off-Plan Properties", categoryImageName: "house"),
-    Category(categoryName: "Rooms for Rent", categoryImageName: "house"),
-    Category(categoryName: "Motors", categoryImageName: "house"),
-    Category(categoryName: "Jobs", categoryImageName: "house"),
-    Category(categoryName: "Classified", categoryImageName: "house"),
-    Category(categoryName: "Furniture & Garden", categoryImageName: "house"),
-    Category(categoryName: "Community", categoryImageName: "house")
-    ]
     
     override func viewDidLoad() {
         super.viewDidLoad()
